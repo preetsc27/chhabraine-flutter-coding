@@ -1,4 +1,4 @@
-# Chhabraine Flutter Coding
+# Chhabraine Flutter/MERN Coding Challenge
 
 Hello you have to make a React.js app, for database use MongoDB and for backend you have to use Express.js using Javascript or Typescript.
 

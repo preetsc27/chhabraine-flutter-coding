@@ -7,10 +7,12 @@ Hello you have to make a React.js app, for database use MongoDB and for backend 
 2. Users can upload a song 
 3. On homepage after login users can:
    * listen songs of other users 
-   * like sonsg
+   * like songs
 4. Sort the songs by date on home page
-5. Load only 25 songs and as the user scroll down he should be able to load more 25 songs. Use pagination.
-6. User Profile where he is able to edit his name and profile pic
+5. Load only 25 songs and as the user scroll down he should be able to load more 25 songs without clicking any button. (Hint: See on scroll in JS)
+6. User Profile where he is able to edit his name and profile pic:
+    * When he opens profile page his data should be pre populated
+    * Edit button should only work if he makes any changes.
 
 ## Submission:
 Submit github link of React.js app and backend seprately.

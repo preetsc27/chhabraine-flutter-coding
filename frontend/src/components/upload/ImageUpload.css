@@ -1,0 +1,37 @@
+.image-upload {
+  height: 180px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-upload_preview::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background-color: rgb(175, 174, 175);
+}
+.image-upload_preview {
+  height: 150px;
+  overflow-y: scroll;
+  width: 100%;
+}
+.image-upload button {
+  cursor: pointer;
+}
+.image-upload img {
+  width: 100%;
+}
+.image-upload input {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .image-upload {
+    height: 150px;
+  }
+}

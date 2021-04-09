@@ -1,0 +1,115 @@
+.auth {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+.auth::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(https://cdn.pixabay.com/photo/2013/07/12/18/17/equalizer-153212__340.png);
+  background-size: cover;
+  opacity: 0.7;
+}
+.auth::after {
+  content: "";
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+/* **************************************** */
+
+.login,
+.signup {
+  min-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #848484;
+  box-shadow: inset 2px -2px 20px 0px #848484;
+  backdrop-filter: blur(6px);
+}
+
+.login_heading,
+.signup_heading {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  color: #f0f0f0;
+}
+.login_form-elem,
+.signup_form-elem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.login_form-elem label,
+.signup_form-elem label {
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.login_form-elem input,
+.signup_form-elem input {
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #000;
+  transition: 400ms;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.login_form-elem input:focus,
+.signup_form-elem input:focus {
+  border: 1px solid #fff;
+}
+.login_form-elem input::placeholder,
+.signup_form-elem input::placeholder {
+  color: #afafaf;
+  font-size: 0.8rem;
+}
+
+.login_bottom p,
+.signup_bottom p {
+  font-size: 0.9rem;
+  color: #fff;
+}
+.login_bottom p span,
+.signup_bottom p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login_bottom button,
+.signup_bottom button {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .login,
+  .signup {
+    min-width: 350px;
+  }
+}

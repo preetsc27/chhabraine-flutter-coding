@@ -1,0 +1,55 @@
+.profile_head div {
+  display: flex;
+  padding: 20px;
+}
+.profile_head label {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.profile_head p {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.profile {
+  text-align: center;
+}
+
+.profile form {
+  width: fit-content;
+  margin: 0 auto;
+}
+.form-elem,
+.form-elem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.form-elem label,
+.form-elem label {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.form-elem input,
+.form-elem input {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #000;
+  transition: 400ms;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.profile_button,
+.profile_button {
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid #000;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}

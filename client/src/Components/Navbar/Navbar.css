@@ -1,0 +1,14 @@
+.navRow {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 30px;
+}
+.authButton {
+	position: absolute;
+	right: 20px;
+}
+.userInfo {
+	position: absolute;
+	right: 150px;
+}
